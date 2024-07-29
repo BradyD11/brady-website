@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
   }
   
   .profile-details {
@@ -11,8 +11,8 @@
   }
   
   .profile-picture {
-    width: 600px;
-    height: 900px; /* Adjust the height as needed */
+    width: 400px;
+    height: 600px; 
     object-fit: cover;
     margin-left: 20px;
   }

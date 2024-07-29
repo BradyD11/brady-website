@@ -14,7 +14,7 @@ function Profile() {
         <h2>Contact</h2>
         <ul>
             <li>Email: brady.d.deschamps@gmail.com</li>
-            <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">clickable text</a></li> </ul>
+            <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">Brady Deschamps</a></li> </ul>
 
       </div>
       <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="profile-picture" />
