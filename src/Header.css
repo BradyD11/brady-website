@@ -20,3 +20,7 @@
 .header-button:hover {
     background-color: #d24747;
   }
+
+.button-container {
+    align-self: flex-start; 
+  }
