@@ -11,6 +11,7 @@
   }
   
   .profile-picture {
+    border: 50px solid #800000 ;
     width: 400px;
     height: 600px; 
     object-fit: cover;
