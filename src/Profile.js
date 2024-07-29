@@ -4,7 +4,6 @@ import './Profile.css';
 function Profile() {
   return (
     <div className="profile">
-      
       <div className="profile-details">
         <h2>About Me</h2>
         <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various technologies including:
