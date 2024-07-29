@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
   }
   
   .profile-details {
@@ -16,4 +16,5 @@
     height: 600px; 
     object-fit: cover;
     margin-left: 20px;
+    overflow: hidden;
   }
