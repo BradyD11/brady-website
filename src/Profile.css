@@ -11,8 +11,8 @@
   }
   
   .profile-picture {
-    width: 200px;
-    height: 300px; /* Adjust the height as needed */
+    width: 600px;
+    height: 900px; /* Adjust the height as needed */
     object-fit: cover;
     margin-left: 20px;
   }

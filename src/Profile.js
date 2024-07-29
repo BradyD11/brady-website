@@ -7,12 +7,17 @@ function Profile() {
       
       <div className="profile-details">
         <h2>About Me</h2>
-        <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. I have experience in various technologies including Java, Javascript, React, Django, and Python. Additionally, I am familiar with multiple platforms including VSCode, Pycharm, and Android Studio. I am currently an intern at 7Stalks Consulting LLC under Steven Klass.</p>
+        <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various technologies including:
+         <br></br><ul><li>Java</li><li>Python</li><li>Javascript</li><li>React</li><li>Django</li>
+            </ul> <br></br>
+            Additionally, I am familiar with multiple platforms including:<ul><li>VSCode</li><li>Pycharm</li><li>Android Studio</li></ul> <br></br>I am currently an intern at 7Stalks Consulting LLC under Steven Klass.</p>
         <h2>Contact</h2>
-        <p>Email: brady.d.deschamps@gmail.com</p>
+        <ul>
+            <li>Email: brady.d.deschamps@gmail.com</li>
+            <li>LinkedIn: Brady Deschamps</li> </ul>
 
       </div>
-      <img src="https://via.placeholder.com/200" alt="Profile" className="profile-picture" />
+      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="profile-picture" />
     </div>
   );
 }
