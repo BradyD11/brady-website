@@ -12,7 +12,7 @@ function Profile() {
         <p>Email: brady.d.deschamps@gmail.com</p>
 
       </div>
-      <img src="https://via.placeholder.com/150" alt="Profile" className="profile-picture" />
+      <img src="https://via.placeholder.com/200" alt="Profile" className="profile-picture" />
     </div>
   );
 }
