@@ -4,3 +4,19 @@
     color: rgb(237, 200, 200);
     text-align: center;
   }
+
+.header-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #f8f4f4;
+    background-color: #c22b2b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.header-button:hover {
+    background-color: #d24747;
+  }
