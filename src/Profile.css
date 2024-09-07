@@ -48,6 +48,12 @@
     margin: 0px 0px 10px -200px;
 
   }
+  .Profile-picture img{
+    width: 400px;
+    height: 600px; 
+    object-fit: cover;
+
+  }
 
 
 
