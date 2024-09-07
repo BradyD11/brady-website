@@ -3,15 +3,12 @@ import './Profile.css';
 
 //TODOS: Crop main image, add interactivity
 function Profile() {
+
   return (
     <div className="Profile-container">
-      <h1 classname="Profile-title"> Hello! I'm Brady Deschamps</h1>
-      <div classname="Profile-content">
-      
-
-      <div className="Profile-details">
-
-        
+      <h1 className="Profile-title">Hello! I'm Brady Deschamps</h1> {/* Large title */}
+      <div className="Profile-content">
+        <div className="Profile-details">
         <h2>About Me</h2>
         <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various languages including:
          <br></br><ul><li>Java</li><li>Python</li><li>Javascript</li><li>React</li><li>Django</li>
@@ -22,14 +19,14 @@ function Profile() {
             <li>Email: brady.d.deschamps@gmail.com</li>
             <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">Brady Deschamps</a></li> </ul>
 
+        </div>
+        <div className="Profile-picture">
+          <img src="Profilephoto.jpg" alt="Profile" />
+        </div>
       </div>
-      <div classname="Profile-picture">
-       <img src={`Profilephoto.jpg`} alt="Profile" />
-
-      </div>
-    </div>
     </div>
   );
 }
+
 
 export default Profile;
