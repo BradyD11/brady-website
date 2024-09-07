@@ -38,7 +38,7 @@
     flex: 1; /* Takes up less space */
     display: flex;
     justify-content: center;
-    border: 5px solid #800000 ;
+    border: 10px solid #800000 ;
     width: 700px;
     height: 700px; 
     right: 20px;
