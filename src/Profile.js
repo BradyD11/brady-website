@@ -1,7 +1,7 @@
 import React from 'react';
 import './Profile.css';
 
-//TODOS: Crop main image, add interactivity
+//TODOS: Crop main image, add interactivity, format text
 function Profile() {
 
   return (
