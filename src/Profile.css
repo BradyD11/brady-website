@@ -39,7 +39,7 @@
     display: flex;
     justify-content: center;
     border: 5px solid #800000 ;
-    width: 380px;
+    width: 350px;
     height: 550px; 
    
     object-fit: cover;
