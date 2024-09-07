@@ -1,17 +1,17 @@
 .header {
   background-color: maroon; /* Maroon background */
-  padding: 10px 20px;
+  padding: 30px 70px;
   display: flex;
   justify-content: center; /* Center the buttons */
   align-items: center;
 }
 
 .nav-button {
-  background-color: white;
-  color: maroon;
+  background-color: maroon;
+  color: white;
   border: 2px solid maroon;
   padding: 10px 20px;
-  margin: 0 10px; /* Space between buttons */
+  margin: 0 50px; /* Space between buttons */
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
