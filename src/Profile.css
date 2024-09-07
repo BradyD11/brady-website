@@ -35,10 +35,10 @@
   }
   
   .Profile-picture {
-    flex: 1; /* Takes up less space */
+    flex: 2; 
     display: flex;
     justify-content: center;
-    border: 10px solid #800000 ;
+    border: 5px solid #800000 ;
     width: 700px;
     height: 700px; 
     right: 20px;
