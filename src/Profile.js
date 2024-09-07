@@ -6,7 +6,7 @@ function Profile() {
 
   return (
     <div className="Profile-container">
-      <h1 className="Profile-title">Hello! I'm Brady Deschamps</h1> {/* Large title */}
+      <h1 className="Profile-title">Hello! I'm Brady Deschamps</h1> 
       <div className="Profile-content">
         <div className="Profile-details">
         <h2>About Me</h2>
