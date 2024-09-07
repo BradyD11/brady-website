@@ -20,9 +20,9 @@ function Profile() {
         <ul>
             <li>Email: brady.d.deschamps@gmail.com</li>
             <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">Brady Deschamps</a></li> </ul>
+            <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
 
       </div>
-      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
     </div>
     </div>
   );
