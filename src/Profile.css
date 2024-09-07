@@ -41,10 +41,10 @@
     border: 5px solid #800000 ;
     width: 700px;
     height: 700px; 
-    right: 20;
+    right: 20px;
    
     object-fit: cover;
-    margin-left: 20px;
+    margin-left: 40px;
     overflow: hidden;
     margin: 0px 0px 50px 0px;
 
@@ -56,9 +56,6 @@
     right: 20;
 
   }
-  .Profile-picture absolute{
-    right: 30px;
-  }
-
+  
 
 
