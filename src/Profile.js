@@ -7,9 +7,9 @@ function Profile() {
     <div className="Profile-container">
       <h1 classname="Profile-title"> Hello! I'm Brady Deschamps</h1>
       <div classname="Profile-content">
+      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
 
       <div className="Profile-details">
-      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
 
         
         <h2>About Me</h2>
@@ -21,6 +21,10 @@ function Profile() {
         <ul>
             <li>Email: brady.d.deschamps@gmail.com</li>
             <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">Brady Deschamps</a></li> </ul>
+
+      </div>
+      <div classname="Profile-picture">
+       <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" />
 
       </div>
     </div>
