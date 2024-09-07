@@ -43,9 +43,9 @@
     height: 700px; 
    
     object-fit: cover;
-    margin-left: 20px;
+    margin-left: 40px;
     overflow: hidden;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
 
   }
   .Profile-picture img{
