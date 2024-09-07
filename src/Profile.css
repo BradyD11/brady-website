@@ -9,6 +9,16 @@
 
 
   }
+  .Profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh; 
+    background: linear-gradient(to bottom, #ca7a7a, #f8f8f8); 
+    font-family: 'Roboto', sans-serif;
+  }
+  
   
   .Profile-details {
     flex: 1;
