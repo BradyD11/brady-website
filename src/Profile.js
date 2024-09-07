@@ -4,7 +4,7 @@ import './Profile.css';
 //TODOS: Crop main image, add interactivity
 function Profile() {
   return (
-    <div className="Profile">
+    <div className="Profile-container">
       <div className="Profile-details">
         <h2>About Me</h2>
         <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various languages including:

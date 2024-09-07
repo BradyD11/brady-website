@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); 
 
-.Profile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif; 
 
-
-  }
   .Profile-container {
     display: flex;
     justify-content: space-between;
