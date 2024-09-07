@@ -6,7 +6,7 @@
     justify-content: space-between;
     flex-direction: column; 
     justify-content: left; 
-    align-items: left; 
+    align-items: center; 
     padding: 20px;
     height: 100vh; 
     background: linear-gradient(to bottom, #ca7a7a, #f8f8f8); 
