@@ -4,7 +4,9 @@
   .Profile-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
     height: 100vh; 
     background: linear-gradient(to bottom, #ca7a7a, #f8f8f8); 

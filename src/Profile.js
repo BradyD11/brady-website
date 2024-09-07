@@ -5,7 +5,8 @@ import './Profile.css';
 function Profile() {
   return (
     <div className="Profile-container">
-      <h1 classname="Profile-title"> "Hello! I'm Brady Deschamps" </h1>
+      <h1 classname="Profile-title"> Hello! I'm Brady Deschamps</h1>
+
       <div className="Profile-details">
       
         
