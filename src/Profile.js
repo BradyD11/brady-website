@@ -4,8 +4,8 @@ import './Profile.css';
 //TODOS: Crop main image, add interactivity
 function Profile() {
   return (
-    <div className="profile">
-      <div className="profile-details">
+    <div className="Profile">
+      <div className="Profile-details">
         <h2>About Me</h2>
         <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various languages including:
          <br></br><ul><li>Java</li><li>Python</li><li>Javascript</li><li>React</li><li>Django</li>
@@ -17,7 +17,7 @@ function Profile() {
             <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">Brady Deschamps</a></li> </ul>
 
       </div>
-      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="profile-picture" />
+      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
     </div>
   );
 }

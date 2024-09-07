@@ -1,16 +1,16 @@
-.profile {
+.Profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
   }
   
-  .profile-details {
+  .Profile-details {
     flex: 1;
     text-align: left;
   }
   
-  .profile-picture {
+  .Profile-picture {
     border: 5px solid #800000 ;
     width: 400px;
     height: 400px; 
