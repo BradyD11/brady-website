@@ -24,7 +24,7 @@ function Profile() {
 
       </div>
       <div classname="Profile-picture">
-       <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" />
+       <img src={`Profilephoto.jpg`} alt="Profile" />
 
       </div>
     </div>
