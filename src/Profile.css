@@ -49,8 +49,8 @@
 
   }
   .Profile-picture img{
-    width: 400px;
-    height: 600px; 
+    width: 100px;
+    height: 100px; 
     object-fit: cover;
 
   }
