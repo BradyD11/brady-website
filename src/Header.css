@@ -1,32 +1,24 @@
 .header {
-    background-color: #590904;
-    padding: 10px;
-    color: rgb(237, 200, 200);
-    text-align: center;
-    flex-direction: column;
-    
-    
-    
-  }
+  background-color: maroon; /* Maroon background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  align-items: center;
+}
 
-.header-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #f8f4f4;
-    background-color: #c22b2b;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    align-items: flex-start;
-    display:flex;
-  }
-  
-.header-button:hover {
-    background-color: #d24747;
-  }
+.nav-button {
+  background-color: white;
+  color: maroon;
+  border: 2px solid maroon;
+  padding: 10px 20px;
+  margin: 0 10px; /* Space between buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-.button-container {
-    align-self: flex-start; 
-  }
+.nav-button:hover {
+  background-color: maroon;
+  color: white;
+}
