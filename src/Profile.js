@@ -9,7 +9,8 @@ function Profile() {
       <div classname="Profile-content">
 
       <div className="Profile-details">
-      
+      <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
+
         
         <h2>About Me</h2>
         <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various languages including:
@@ -20,7 +21,6 @@ function Profile() {
         <ul>
             <li>Email: brady.d.deschamps@gmail.com</li>
             <li>LinkedIn: <a href="www.linkedin.com/in/brady-d-deschamps">Brady Deschamps</a></li> </ul>
-            <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
 
       </div>
     </div>
