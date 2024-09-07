@@ -41,7 +41,7 @@
     border: 5px solid #800000 ;
     width: 700px;
     height: 700px; 
-    right: 700;
+    right: 20;
    
     object-fit: cover;
     margin-left: 20px;
@@ -53,6 +53,7 @@
     width: 700px;
     height: 700px; 
     object-fit: cover;
+    right: 20;
 
   }
 
