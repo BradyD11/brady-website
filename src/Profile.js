@@ -6,6 +6,7 @@ function Profile() {
   return (
     <div className="Profile-container">
       <h1 classname="Profile-title"> Hello! I'm Brady Deschamps</h1>
+      <div classname="Profile-content">
 
       <div className="Profile-details">
       
@@ -22,6 +23,7 @@ function Profile() {
 
       </div>
       <img src={`${process.env.PUBLIC_URL}/Profilephoto.jpg`} alt="Profile" className="Profile-picture" />
+    </div>
     </div>
   );
 }
