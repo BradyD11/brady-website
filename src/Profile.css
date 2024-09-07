@@ -37,7 +37,7 @@
   .Profile-picture {
     flex: 1; /* Takes up less space */
     display: flex;
-    justify-content: right;
+    justify-content: center;
     border: 5px solid #800000 ;
     width: 400px;
     height: 600px; 
