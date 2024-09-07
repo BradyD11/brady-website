@@ -5,7 +5,9 @@ import './Profile.css';
 function Profile() {
   return (
     <div className="Profile-container">
+      <h1> Brady Deschamps </h1>
       <div className="Profile-details">
+        
         <h2>About Me</h2>
         <p>Hello! I'm Brady Deschamps, a student at the ASU Barett Honors College with a passion for computer science and mathematics. <br></br> I have experience in various languages including:
          <br></br><ul><li>Java</li><li>Python</li><li>Javascript</li><li>React</li><li>Django</li>
