@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); 
+
 .Profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    font-family: 'Merriweather', serif; 
+
+
   }
   
   .Profile-details {
     flex: 1;
     text-align: left;
+    font-family: 'Merriweather', serif; 
+
   }
   
   .Profile-picture {
@@ -17,5 +24,6 @@
     object-fit: cover;
     margin-left: 20px;
     overflow: hidden;
-    margin: 0px 0px 10px -200px
+    margin: 0px 0px 10px -200px;
+
   }
