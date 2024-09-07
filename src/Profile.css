@@ -45,7 +45,7 @@
     object-fit: cover;
     margin-left: 20px;
     overflow: hidden;
-    margin: 0px 0px 10px -200px;
+    margin: 0px 0px 10px 0px;
 
   }
   .Profile-picture img{
