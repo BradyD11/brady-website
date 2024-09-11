@@ -26,7 +26,9 @@ function Profile() {
       </div>
 
     <div className="Experience">
-      <textarea className="large-textbox" placeholder="Write something here..."></textarea>
+      <div classname="Experience-content">
+
+      </div>
     </div>
   </div>
 
