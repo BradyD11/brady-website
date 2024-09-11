@@ -56,6 +56,25 @@
     right: 20;
 
   }
+  .Experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height for the second screen */
+    width: 100%; /* Full width of the container */
+    background-color: #f8f8f8; /* Light background for second screen */
+  }
+  
+  .Experience-text {
+    width: 80%;
+    height: 300px; /* Height of the text box */
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    resize: none; /* Prevent resizing */
+  }
   
 
 

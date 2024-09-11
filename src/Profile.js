@@ -24,7 +24,12 @@ function Profile() {
           <img src="Profilephoto.jpg" alt="Profile" />
         </div>
       </div>
+
+    <div className="Experience">
+      <textarea className="large-textbox" placeholder="Write something here..."></textarea>
     </div>
+  </div>
+
   );
 }
 
