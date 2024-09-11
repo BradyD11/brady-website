@@ -62,7 +62,8 @@
     align-items: center;
     min-height: 100vh; /* Full height for the second screen */
     width: 100%; /* Full width of the container */
-    background-color: #f8f8f8; /* Light background for second screen */
+    background: linear-gradient(to bottom, rgb(121, 225, 83), #f8f8f8); 
+    font-family: 'Roboto', sans-serif;
   }
   
   .Experience-text {
